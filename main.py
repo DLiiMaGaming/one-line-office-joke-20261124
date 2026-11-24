@@ -7,6 +7,7 @@ to /output/entry.txt. Fully deterministic: the same fixed text on every run.
 
 import os
 
+# The punchline: the agent "optimizes" the meeting away, then recreates it.
 JOKE = (
     "My agent auto-replied to the meeting invite with "
     "'this could have been an email', then booked a follow-up "
